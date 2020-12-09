@@ -1,0 +1,16 @@
+.Layout {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+}
+
+.bottom {
+    background:whitesmoke;
+}
+.footer {
+    background:  #850444;
+}
+.navbar {
+    background: #850444;
+}

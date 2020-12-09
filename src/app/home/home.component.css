@@ -1,0 +1,83 @@
+.home {
+    margin:10px 10px 0px 52px;
+    font-size: larger;
+    color: #8a0045;
+}
+
+.btn{
+  margin: 0px 0px 0px 30px ;
+}
+
+.example-button-row .mat-button-base{
+    background-color: #e7dee3;
+    border-radius: 20px;
+    margin-inline-start: 30px;
+   
+  }
+  
+  .example-button-row .mat-button-base {
+    margin: 0px 20px 40px 10px;
+    height: 50px;
+    width: 150px;
+    font-size: medium;
+  }
+
+  .toggle {
+    margin-left: 700px;
+    border-radius: 20px;
+    background-color: #8a0045;
+  }
+
+  .card{
+    padding: 0px 0px 40px;
+  }
+
+  .card .example-card{
+    width: 1000px;
+    max-height: fit-content;
+    margin-left: 150px;
+    padding: 20px;
+  }
+
+  .card2{
+    padding: 0px 0px 40px;
+    border-color: #8a0045;
+  }
+  .card2 .example-card{
+    width: 1000px;
+    max-height: fit-content;
+    margin-left: 150px;padding: 20px;
+  }
+
+  .card3{
+    padding: 0px 0px 80px;
+  }
+
+  .card3 .example-card{
+    width: 1000px;
+    max-height: fit-content;
+    margin-left: 150px;padding: 20px;
+  }
+
+  .card .text{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+  }
+
+  .card2 .text2{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+  }
+  
+  .card3 .text3{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+  }
+  #bold{
+    background-color: #8a0045;
+  }
+  
+  

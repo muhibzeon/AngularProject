@@ -1,0 +1,56 @@
+.bottom {
+    background:whitesmoke;
+    color:black;
+    margin: 10px 60px 25px 55px;
+
+}
+.mat-fab {
+    background:  #850444;
+}
+.sm {
+  margin: 0px 0px 0px 40px;
+}
+.s {
+  margin: 0px 22px 0px 0px;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 10px;
+  font-size: 15px;
+  width: 33px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #be5625;
+  color: white;
+}
+.fa-xing {
+  background: green;
+  color: white;
+}

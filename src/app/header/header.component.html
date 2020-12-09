@@ -1,0 +1,74 @@
+<header class="header" fxLayoutAlign="space-between center" >
+    
+    <div  fxLayoutAlign="space-between center">
+        
+        <div fxLayout="row" fxLayoutAlign="space-between center">
+            <div><p><img class="bottom" src="assets/image/OVGU_Logo.svg" alt= "OVGU_Logo" width="250" height="100"></p></div>
+            <div class="text"><h3><strong>STUDIENPORTAL</strong></h3></div>
+        </div>
+    </div>  
+    <div fxLayoutGap="20px" fxLayout="row">
+        <div> 
+             
+            <form id="search-form" class="form-inline" role="form" method="post" action="https://material.angular.io/components/categories" target="_blank">
+                <div class="input-group">
+                    <input type="text" class="form-control search-form" placeholder="Search">
+                    <span class="input-group-btn"><button type="submit" class="btn btn-primary search-btn" data-target="#search-form" name="q">
+                        <i class="fa fa-search"></i> </button></span>
+                </div>
+            </form>
+        </div>
+        <div>
+
+                    <button mat-fab [matMenuTriggerFor]="menu">
+                        <span class="material-icons">apps</span>
+                      </button>
+                      <mat-menu #menu="matMenu">
+
+                        <button mat-menu-item>
+                          <mat-icon><span class="school">school</span></mat-icon>
+                          <span>Studienportal</span>
+                        </button>
+
+                        <button mat-menu-item >
+                          <mat-icon><span class="library">
+                            local_library
+                            </span></mat-icon>
+                          <span>Universitätsbibliothek</span>
+                        </button>
+
+                        <button mat-menu-item>
+                          <mat-icon><span class="pc">laptop_mac</span></mat-icon>
+                          <span>Universitätsrechenzentrum</span>
+                        </button>
+                        
+                        <button mat-menu-item>
+                            <mat-icon><span class="ball">sports_volleyball</span></mat-icon>
+                            <span>Sportzentrum</span>
+                          </button>
+
+                          <button mat-menu-item>
+                            <mat-icon><span class="sprachen">translate</span></mat-icon>
+                            <span>Sprachenzentrum</span>
+                          </button>
+
+                          <button mat-menu-item>
+                            <mat-icon><span class="formulartool">text_snippet</span></mat-icon>
+                            <span>Formularpool</span>
+                          </button>
+                      </mat-menu>
+        </div>
+        <div>
+            <button mat-fab >
+            <span class="material-icons" matBadge="11" matBadgeColor="warn">forum</span>
+            </button>
+        </div>
+        <div>
+              <button mat-fab >
+                <span class="material-icons">login</span>
+              </button>
+             
+        </div>
+        
+    </div>
+</header>

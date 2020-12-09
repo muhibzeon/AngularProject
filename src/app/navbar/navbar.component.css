@@ -1,0 +1,42 @@
+
+.example-spacer {
+    flex: 1 1 auto;
+  }
+.navbar {
+  background: #850444;
+  color: white;
+  border-radius: 0mm;
+  height: fit-content;
+  margin: 0px;
+}
+
+.mat-menu-item {
+  color: #850444;
+}
+
+.launch {
+  color: #850444;
+  font-size: 18px;
+}
+.home {
+  margin: 0px 0px 0px 50px;
+}
+.sprache {
+  margin: 0px 30px 0px 0px;
+}
+
+.home-icon {
+  margin: 0px 10px 12px 0px;
+  font-size: 35px;
+}
+.read {
+  color: #850444;
+  font-size: 30px;
+  margin: 0px 0px 10px 5px;
+}
+
+.br {
+  background: whitesmoke;
+  margin: 0px;
+  
+}
